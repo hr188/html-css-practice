@@ -1,0 +1,13 @@
+div{
+    margin: 10px;
+    border: solid 5px beige;
+    box-sizing: border-box;
+    /*< without border box szing the size of block inreases as we put margin and padding into them */
+}
+.box{
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 2px;
+    
+    
+}
