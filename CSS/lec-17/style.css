@@ -1,4 +1,29 @@
-#img{
-    height: 500px;
-    width: 400px;
+div{
+    border: 1px solid aqua;
+}
+img{
+    margin: 10px;
+}
+.container{
+    position: relative;
+    height: 10000px;
+    background-color: antiquewhite;
+}
+/*.img2{
+    position: relative;
+    top: 60px;
+    left: 80px;
+}*/
+/*.img2{
+    position:absolute;
+    top: 20px;
+}*/
+/*.img3{
+    position: fixed;
+}*/
+
+.img4{
+    position: sticky;
+    top: 100px;
+    border: solid black 20px;
 }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: rgb(255, 255, 191);
+            margin: 20px;
+            padding: 5px;
+            /*display: flex;
+            flex-direction: column;*/
+            height: 100vh;
+        }
+        .box{
+            border: solid black 5px;
+            height: 200px;
+            width: 200px;
+            margin: 5px;
+            padding: 3px;
+        }
+        #box1{
+            background-color: red;
+        }
+        #box2{
+            background-color: aqua;
+        }
+        #box3{
+            background-color: bisque;
+        }
+        #box4{
+            background-color:brown;
+            /*flex-grow: 1;*/
+            /*flex-shrink: 5; shrinks faster 5 times */
+            flex-basis: 30px;
+
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            /*justify-content: space-evenly; main axis affect*/
+            /*flex-wrap: wrap;
+            align-content:space-evenly;  works only when flex wrap is set to wrap  cross axis property*/
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+        
+    </div>
+    
+</body>
+</html>
